@@ -55,5 +55,5 @@ jobs:
         continue-on-error: true
       # incase error terminate the workflow
       - name: Terraform plan status
-        if: steps.plan.outcome == "failure"
+        if: steps.plan.outcome == 'failure'
         run: exit 1
