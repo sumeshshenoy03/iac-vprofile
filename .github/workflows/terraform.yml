@@ -1,4 +1,4 @@
-name: "Vprofile infrastructure as Code"
+name: "Vprofile IAC"
 on:
   push:
     branches:
